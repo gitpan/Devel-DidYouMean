@@ -21,6 +21,7 @@ my %WriteMakefileArgs = (
   "NAME" => "Devel::DidYouMean",
   "PREREQ_PM" => {
     "Carp" => 0,
+    "Perl::Builtins" => 0,
     "Text::Levenshtein" => 0,
     "feature" => 0,
     "strict" => 0,
@@ -32,7 +33,7 @@ my %WriteMakefileArgs = (
     "Test::Exception" => 0,
     "Test::More" => 0
   },
-  "VERSION" => "0.02",
+  "VERSION" => "0.03",
   "test" => {
     "TESTS" => "t/*.t"
   }
@@ -42,6 +43,7 @@ my %WriteMakefileArgs = (
 my %FallbackPrereqs = (
   "Carp" => 0,
   "Data::Dumper" => 0,
+  "Perl::Builtins" => 0,
   "Test::Exception" => 0,
   "Test::More" => 0,
   "Text::Levenshtein" => 0,

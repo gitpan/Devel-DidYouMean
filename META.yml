@@ -17,6 +17,7 @@ meta-spec:
 name: Devel-DidYouMean
 requires:
   Carp: '0'
+  Perl::Builtins: '0'
   Text::Levenshtein: '0'
   feature: '0'
   strict: '0'
@@ -25,4 +26,4 @@ requires:
 resources:
   homepage: https://github.com/sillymoose/Devel-DidYouMean
   repository: https://github.com/sillymoose/Devel-DidYouMean.git
-version: '0.02'
+version: '0.03'
