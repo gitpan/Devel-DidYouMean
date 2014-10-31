@@ -3,7 +3,7 @@
 use strict;
 use warnings;
 
-
+use 5.008;
 
 use ExtUtils::MakeMaker 6.30;
 
@@ -23,7 +23,6 @@ my %WriteMakefileArgs = (
     "Carp" => 0,
     "Perl::Builtins" => 0,
     "Text::Levenshtein" => 0,
-    "feature" => 0,
     "strict" => 0,
     "vars" => 0,
     "warnings" => 0
@@ -33,7 +32,7 @@ my %WriteMakefileArgs = (
     "Test::Exception" => 0,
     "Test::More" => 0
   },
-  "VERSION" => "0.03",
+  "VERSION" => "0.04",
   "test" => {
     "TESTS" => "t/*.t"
   }
@@ -47,7 +46,6 @@ my %FallbackPrereqs = (
   "Test::Exception" => 0,
   "Test::More" => 0,
   "Text::Levenshtein" => 0,
-  "feature" => 0,
   "strict" => 0,
   "vars" => 0,
   "warnings" => 0
