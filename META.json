@@ -28,12 +28,10 @@
       },
       "runtime" : {
          "requires" : {
-            "Carp" : "0",
             "Perl::Builtins" : "0",
             "Text::Levenshtein" : "0",
             "perl" : "5.008",
             "strict" : "0",
-            "vars" : "0",
             "warnings" : "0"
          }
       },
@@ -54,6 +52,6 @@
          "web" : "https://github.com/sillymoose/Devel-DidYouMean"
       }
    },
-   "version" : "0.04"
+   "version" : "0.05"
 }
 
